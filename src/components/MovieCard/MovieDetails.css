@@ -1,0 +1,157 @@
+.details-container {
+    height: 1100px;
+    background: url(../../logos/netflix-bg.png);
+    background-size: contain;
+}
+.container-shadow {
+    background-color: rgba(31, 1, 1, 0.4);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.details-wrapper {
+    margin-top: 50px;
+    position: relative;
+    border-radius: 50px;
+    width: 1080px;
+    height: 90%;
+    z-index: 20;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+}
+
+.details-video-absolute {
+    object-fit: fill;
+    bottom: 280px;
+    position: absolute;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.close-button {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+.detail-video-overlays {
+    padding-left: 50px;
+    width: 100%;
+
+    position: absolute;
+    top: 290px;
+    left: 0;
+    z-index: 50;
+}
+
+.details-desc {
+    padding-right: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+    width: 100%;
+    z-index: 100;
+}
+.categories-list {
+    display: flex;
+    flex-wrap: wrap;
+    height: 50px;
+}
+
+.desc-left {
+    width: 57%;
+}
+.desc-right {
+    width: 33%;
+    display: flex;
+    padding-right: 20px;
+}
+
+.details-logo {
+    width: 100px;
+}
+
+.details-text {
+    color: white;
+    font-size: 35px;
+    font-weight: bolder;
+}
+@media all and (max-width: 920px) {
+    .details-logo {
+        width: 70px;
+    }
+
+    .details-text {
+        font-size: 30px;
+    }
+    .detail-video-overlays {
+        top: 310px;
+        left: 0;
+    }
+    .details-desc {
+        flex-direction: column;
+    }
+    .desc-right {
+        display: none;
+    }
+    .desc-left {
+        width: 100%;
+    }
+}
+.hidden {
+    display: none;
+}
+@media all and (max-width: 798px) {
+    .details-video-absolute {
+        bottom: 350px;
+    }
+    .detail-video-overlays {
+        top: 280px;
+        padding-left: 20px;
+    }
+    .details-text {
+        font-size: 24px;
+    }
+}
+@media all and (max-width: 768px) {
+    .detail-video-overlays {
+        top: 280px;
+        padding-left: 20px;
+    }
+    .details-text {
+        font-size: 24px;
+    }
+    .details-logo {
+        display: none;
+    }
+}
+@media all and (max-width: 572px) {
+    .details-video-absolute {
+        bottom: 400px;
+    }
+    .detail-video-overlays {
+        top: 170px;
+        padding-left: 20px;
+    }
+}
+@media all and (max-width: 430px) {
+    .details-video-absolute {
+        bottom: 410px;
+    }
+    .detail-video-overlays {
+        top: 150px;
+        padding-left: 20px;
+    }
+    .details-text {
+        font-size: 18px;
+    }
+    .details-logo {
+        display: none;
+    }
+    .hidden {
+        display: block;
+    }
+    .visible {
+        display: none;
+    }
+}

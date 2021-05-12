@@ -1,0 +1,158 @@
+.hit-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 310px;
+    height: 280px;
+    margin: 0;
+    padding: 0;
+}
+.hits-container ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    list-style-type: none;
+}
+.ais-SearchBox-submit {
+    display: none;
+}
+.ais-SearchBox-reset {
+    display: none;
+}
+.ais-SearchBox-input {
+    width: 300px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    cursor: default;
+}
+.ais-SearchBox-input::placeholder {
+    font-size: 80%;
+    color: white;
+    margin-left: 5px;
+}
+.ais-SearchBox-input:focus {
+    border: none;
+    outline: none;
+}
+.search-controls {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-controls ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    list-style-type: none;
+}
+
+.ais-Pagination-list li {
+    margin: 10px;
+    font-size: 14px;
+    color: rgb(75, 75, 75);
+}
+.ais-Pagination-list {
+    padding: 0;
+}
+.ais-Pagination-item {
+    color: white;
+}
+.ais-Pagination-link {
+    color: white;
+}
+.ais-Pagination-link:hover {
+    color: white;
+    text-decoration: none;
+}
+.ais-Pagination-link--selected {
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px;
+    /* padding: 10px; */
+
+    color: black;
+}
+.ais-Pagination-link--selected:hover {
+    color: black;
+}
+.ais-Pagination-link--disabled {
+    color: rgb(75, 75, 75);
+}
+
+.ais-Pagination-link--disabled {
+    color: rgb(75, 75, 75) !important;
+}
+
+.ais-RefinementList li {
+    margin: 10px;
+}
+
+.search-wrapper {
+    background-color: rgb(5, 5, 5);
+    height: 100%;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+.ais-Menu-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    width: 100px;
+    height: 50px;
+    margin: 5px;
+    background-color: rgb(34, 34, 34);
+}
+.ais-Menu-item:hover {
+    background-color: rgb(50, 50, 50);
+}
+
+.ais-Menu-list {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 600px;
+}
+.ais-Menu-link {
+    text-decoration: none;
+    color: white;
+}
+.ais-Menu-link:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.search-inp {
+    display: flex;
+    align-items: center;
+}
+
+.ais-ClearRefinements-button {
+    display: flex;
+    justify-content: center;
+    border: none;
+    align-items: center;
+    border-radius: 3px;
+    width: 100px;
+    height: 50px;
+    margin: 5px;
+    background-color: rgb(34, 34, 34);
+    color: white;
+}
+.ais-ClearRefinements-button:hover {
+    background-color: rgb(50, 50, 50);
+}

@@ -1,0 +1,24 @@
+.watch-container {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.watch-video {
+    position: absolute;
+}
+.watch-wrapper {
+    background-color: rgb(15, 15, 15);
+    height: 100%;
+}
+
+.watch-controls {
+    margin-top: 50px;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,21 @@
+/* .popular-container {
+    width: 100vh;
+    overflow-x: hidden;
+} */
+
+.popular-styling {
+    position: relative;
+    padding-top: 40px;
+    height: 560px;
+    display: flex;
+    z-index: 2;
+    overflow-x: auto;
+}
+.popular-title {
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+}
+.popular-styling::-webkit-scrollbar {
+    display: none;
+}

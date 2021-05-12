@@ -1,0 +1,8 @@
+.main-logo {
+    width: 100px;
+}
+@media all and (max-width: 598px) {
+    .main-logo {
+        width: 70px;
+    }
+}
